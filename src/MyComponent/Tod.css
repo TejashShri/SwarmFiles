@@ -1,0 +1,64 @@
+.container{
+  text-align: center;
+  background-color: wheat; 
+  max-width: max-content;
+  max-height: max-content;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+}
+ .content{
+      background-color: wheat; 
+      display: flex;
+      flex-direction: column;
+  }
+  .about{
+    border: 20px solid black;
+    background-color:red;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+    font-size: 20px;
+    color:white;  
+}
+ 
+  .App-logo {
+    height: 80vmin;
+    padding-top: 5px;
+    border: 60px;
+    margin: auto;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+  }
+   .container p{
+    background-color:wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    color:red;  
+  }
+  .imp{
+    font-size: 20px;
+    color:black;
+    
+  }
+  .why{
+      padding-top: 20px;
+      text-align: center;
+  }
+  .what{
+    padding-top: 20px;
+    text-align: center;
+}
+  hr.dotted {
+    border-top: 10px dotted red;
+    
+  }
+  hr.dashed {
+    border-top: 2px dashed red;
+  }
+  .container p{
+    font-weight: bold;
+  }
